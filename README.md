@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+### NewsFetch-React-App with both light and dark modes.
+NewsFetch is a news app which can be used to grab quick daily news bites. If you are interested in news ,general,weather,technology,Science, Entertainment, business,politics ,health and sports news etc.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### WITH LIGHT MODE
 
-## Available Scripts
+![Screenshot 2024-06-25 123653](https://github.com/verma2209/NewsFetch-React-App/assets/119332108/b4eaa757-ec19-42b3-ad7d-61e8a0970a44)
 
-In the project directory, you can run:
+![Screenshot 2024-06-25 123816](https://github.com/verma2209/NewsFetch-React-App/assets/119332108/928eba05-e867-492a-8901-aef551d9dd73)
 
-### `npm start`
+![Screenshot 2024-06-25 123836](https://github.com/verma2209/NewsFetch-React-App/assets/119332108/e2b01354-6ec3-4445-b1bd-e6757581b9be)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Screenshot 2024-06-25 123858](https://github.com/verma2209/NewsFetch-React-App/assets/119332108/1e4ae6aa-d5b2-498d-b4be-90cf3606e5d7)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### WITH DARK MODE
 
-### `npm test`
+![Screenshot 2024-06-25 123930](https://github.com/verma2209/NewsFetch-React-App/assets/119332108/c26fe3bc-82a7-4064-8d33-4cd6cfc23577)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Screenshot 2024-06-25 123954](https://github.com/verma2209/NewsFetch-React-App/assets/119332108/c697a40b-5e5c-4bcb-8306-9354b1930d7d)
 
-### `npm run build`
+![Screenshot 2024-06-25 124029](https://github.com/verma2209/NewsFetch-React-App/assets/119332108/14d19aeb-9346-42c4-8140-23e420362299)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
