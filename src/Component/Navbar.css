@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+.content .logo {
+  width: 300px;
+  text-align: center;
+  /* border: 2px solid red; */
+}
+.wrapper {
+  background: #000;
+
+  width: 100%;
+  display: flex;
+  /* border: 2px solid blue; */
+
+  position: fixed; /* Makes the navbar fixed */
+  top: 0; /* Positions the navbar at the top */
+  z-index: 1000; /* Ensures the navbar is on top of other content */
+
+  height: 12vh;
+}
+.wrapper nav {
+  position: relative;
+  display: flex;
+  max-width: calc(100% - 200px);
+  margin: 0 auto;
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+  /* border: #fff 2px solid; */
+}
+nav .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: #fff 2px solid; */
+  /* height: 12vh; */
+  padding-top: 10px;
+}
+nav .content .links {
+  display: flex;
+  /* border: 2px red solid; */
+  justify-content: center;
+  /* margin-right: 100px; */
+  text-align: center;
+  /* height: 15vh; */
+  /* padding-top: 10px; */
+  /* background-color: #1462e8; */
+}
+.content .logo a {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+  text-decoration: none;
+
+  /* margin-left: 80px; */
+}
+.content .links li {
+  list-style: none;
+  line-height: 70px;
+  text-decoration: none;
+  margin-top: 17px;
+  /* margin-right: 40px; */
+}
+/* .content button {
+  width: 150px;
+} */
+
+.content .links li a,
+.content .links li label {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 9px 17px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+.content .links li label {
+  display: none;
+}
+.content .links li a:hover,
+.content .links li label:hover {
+  background: #3e4b63;
+}
+.content .form-check .form-check-label {
+  color: white;
+  text-align: center;
+  margin-right: 10px;
+}
+.wrapper .form-check {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  /* border: yellow 2px solid; */
+  margin-right: 30px;
+}
+.wrapper .form-check .form-check-input {
+  border: red 2px solid;
+}
+.wrapper .form-check img {
+  height: 50px;
+  margin-right: 10px;
+}
+/* .content {
+  border: yellow 2px solid;
+}
+nav {
+  border: blue 2px solid;
+} */
+
+/* Dropdown Menu code start */
+.content .links ul {
+  position: absolute;
+  background: #171c24;
+  top: 80px;
+  z-index: -1;
+  opacity: 0;
+  visibility: hidden;
+}
+.content .links li:hover > ul {
+  top: 70px;
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.3s ease;
+}
+.content .links ul li a {
+  display: block;
+  width: 100%;
+  line-height: 30px;
+  border-radius: 0px !important;
+}
+.content .links ul ul {
+  position: absolute;
+  top: 0;
+  right: calc(-100% + 8px);
+}
+.content .links ul li {
+  position: relative;
+}
+.content .links ul li:hover ul {
+  top: 0;
+}
+
+/* Responsive code start */
+@media screen and (max-width: 1250px) {
+  .wrapper nav {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  nav .content .links {
+    margin-left: 30px;
+  }
+  .content .links li a {
+    padding: 8px 13px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .wrapper .menu-icon {
+    display: block;
+  }
+
+  nav .content .links {
+    display: block;
+    position: fixed;
+    background: #14181f;
+    height: 100%;
+    width: 100%;
+    top: 70px;
+    left: -100%;
+    margin-left: 0;
+    max-width: 350px;
+    overflow-y: auto;
+    padding-bottom: 100px;
+    transition: all 0.3s ease;
+  }
+
+  .content .links li {
+    margin: 15px 20px;
+  }
+  .content .links li a,
+  .content .links li label {
+    line-height: 40px;
+    font-size: 20px;
+    display: block;
+    padding: 8px 18px;
+    cursor: pointer;
+  }
+  .content .links li a.desktop-link {
+    display: none;
+  }
+
+  /* dropdown responsive code start */
+  .content .links ul,
+  .content .links ul ul {
+    position: static;
+    opacity: 1;
+    visibility: visible;
+    background: none;
+    max-height: 0px;
+    overflow: hidden;
+  }
+
+  .content .links ul li {
+    margin: 7px 20px;
+  }
+  .content .links ul li a {
+    font-size: 18px;
+    line-height: 30px;
+    border-radius: 5px !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .wrapper nav {
+    padding: 0 10px;
+  }
+  .content .logo a {
+    font-size: 27px;
+  }
+}
+
+/* //new css */
